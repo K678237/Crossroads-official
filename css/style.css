@@ -62,7 +62,7 @@ p {
 	
     margin: 0;
     font-size: 1em;
-    color: #777;
+    color: black;
     line-height: 1.9em;
     letter-spacing: 1px;
     font-family: 'Open Sans', sans-serif;
@@ -92,18 +92,19 @@ nav {
 }
 
 #logo a {
+    text-align: center;
     font-size: .8em;
-    display: initial;
+    display:inline-table;
     margin: 0;
     letter-spacing: 1px;
-    color:black;
+    color: initial;
     padding: 0px 0;
     border: none;
     font-weight: 600;
 }
 #logo a span.fa {
-       color: #5e2ced;
-    font-size: 1em;
+    color: crimson;
+ font-size: 1em;
 }
 
 
@@ -160,10 +161,11 @@ nav ul li ul li:hover { background: #f8f9fa; }
 
 /* Background color change on Hover */
 nav a:hover { 
-	color: #ddd;
+	color: black;
 }
 .menu li.active  a{ 
-	color:lightsteelblue;
+    color: darkgrey;
+    font-size: 0.8em;
 }
 
 /* Hide Dropdowns by Default
@@ -222,11 +224,11 @@ li > a:only-child:after { content: ''; }
 		float: none;
 	}
 	.menu li.active a {
-		color: #00aeff;
+		color: :rgb(141, 0, 0);
 	}
 	nav li.last-grid a {
-		border: 2px solid #00aeff;
-		color: #00aeff;
+		border: 2px solid black;
+		color: black);
 		font-size: 15px;
 		letter-spacing: 1px;
 		padding: 10px 25px;
@@ -257,7 +259,7 @@ li > a:only-child:after { content: ''; }
 		text-decoration: none;
 		border: none;
 		float: right;
-		background-color:#5e2ced;
+		background-color:crimson;
 		color: #fff;
 		margin-bottom: 0;
 		margin-top: 0em;
@@ -385,7 +387,7 @@ li > a:only-child:after { content: ''; }
 
 /*-- banner --*/
 .banner {
-    background: url(../images/lg.jpg)no-repeat center;
+    background: url(https://wallpaperplay.com/walls/full/8/6/6/46714.jpg)no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -455,7 +457,7 @@ h4.b-w3ltxt {
 /*-- banner bottom --*/
 /*-- services --*/
 .services {
-    background: #f6f6f6;
+    background:#c4dcff;
 }
 #appSummary{
     justify-content:center;
@@ -476,10 +478,10 @@ h4.b-w3ltxt {
 }
   .feature-grids span {
     font-weight: 800;
-    color: #5e2ced;
+    color: #fff;
     font-size: 24px;
     transition: all 0.3s ease 0s;
-    background: rgba(94,44,237,0.15);
+    background: maroon;
     border-radius: 50%;
     width: 60px;
     height: 60px;
@@ -506,13 +508,13 @@ h4.b-w3ltxt {
     text-align: center;
     vertical-align: middle;
     margin-right: 15px;
-    color: #5e2ced;
+    color: #8a0000;
     font-size: 22px;
     transition: all 0.3s ease 0s;
     background: rgba(94,44,237,0.15);
 }
 .inner-heading a.btn {
-       background: #5e2ced;
+       background: maroon;
     border: 2px solid #fff;
     color: #fff;
     font-size: 16px;
@@ -597,7 +599,7 @@ h4.b-w3ltxt {
     text-transform: capitalize;
 }
 h4.progress-tittle {
-    color: #bbb;
+    color: mediumblue;
     font-size: 0.85em;
     text-transform: uppercase;
     margin-bottom: 1em;
@@ -637,7 +639,12 @@ h5.heading {
 	text-align: center;
 }
 section#team {
-    background-color: #f3f3f3;
+    background: url(https://cdn.pixabay.com/photo/2017/07/10/13/56/watercolour-2490239_960_720.jpg)no-repeat center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -ms-background-size: cover;
+    background-size: cover;
 }
 /*********************** Demo - 13 *******************/
 .box13 {
@@ -656,7 +663,7 @@ section#team {
 .box13:after {
     content: "";
     display: block;
-   background: #696b6875;
+   background:black;
     top: 20px;
     bottom: 20px;
     opacity: 0;
@@ -665,7 +672,7 @@ section#team {
 }
 
 .box13:hover:after {
-    opacity: .9;
+    opacity: 5;
     transform: rotate3d(0, 0, 0, 0deg)
 }
 
@@ -686,7 +693,7 @@ section#team {
 .box13:hover .box-content {
     opacity: 1;
     transform: translate(0, -50%);
-    transition-delay: .2s
+    transition-delay: .1s
 }
 
 .box13 .title {
@@ -741,6 +748,7 @@ section#team {
 
 /*-- //team  --*/
 /*--  text --*/
+}
 .text {
     background: url(../images/r1.png) no-repeat center;
     background-size: cover;
@@ -934,7 +942,7 @@ ul.price-in {
 /*--//price--*/
 /* testimonials */
 .testi {
-    background: #f6f6f6;
+    background:ghostwhite;
 }
 
 h6.b-w3ltxt {
@@ -971,7 +979,7 @@ h6.b-w3ltxt span {
     font-size: 1.4em;
 }
 .testi-cgrid {
-    background: #5e2ced;
+    background: maroon;
     padding: 2em 1em;
 }
 .border-right-grid{
@@ -985,8 +993,9 @@ h6.b-w3ltxt span {
 }
 /* //testimonials */
 /*-- Contact page --*/
+
 .contact {
-    background: url(../images/businessmen-standing-at-crossroads-vector.jpg)no-repeat center;
+    background: url(https://png.pngtree.com/thumb_back/fh260/background/20190831/pngtree-pastel-colorful-background-clouds-image_312444.jpg)no-repeat center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -1014,7 +1023,7 @@ h6.b-w3ltxt span {
 .contact_right button {
     outline: none;
     padding: 15px 0;
-    background: #5e2ced;
+    background: maroon;
     color: #fff;
     font-weight: 500;
     letter-spacing: 2px;
